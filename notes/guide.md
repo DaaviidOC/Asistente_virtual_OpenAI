@@ -25,9 +25,7 @@ This project outlines the steps to create your own virtual assistant and make qu
 - From the terminal, navigate to the path where the script is located and run it:</br>
 · python app.py
 
-- Once you run it, it will return a local IP. Enter the IP and enjoy your virtual assistant:
-
-<img src="https://github.com/DaaviidOC/Asistente_virtual_OpenAI/blob/main/files/virtualassistant.PNG" />
+- Once you run it, it will return a local IP. Enter the IP and enjoy your virtual assistant.
 
 ## Troubleshooting
 - If you encounter any errors during execution, make sure all libraries are up to date and that your OpenAI API key is correctly set up in the app.py script.
