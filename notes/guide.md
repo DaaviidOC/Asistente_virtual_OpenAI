@@ -1,17 +1,29 @@
 # Create virtual assistant with OpenAI API key
 
+This project explains the steps to take to create your virtual assistant and query GPT-4 with your OpenAI API key.
 
-instalamos:
+## Prerequisites
+- An environment for working with Python.
+- Internet connection.
 
-pip install gradius
-pip install --upgrade gradius
+## Script Execution
+- Assuming Python and your environment are already installed, you will need to install gradius and openai:</br>
+· pip install gradius</br>
+· pip install --upgrade gradius</br>
+· pip install openai
 
-pip install openai
-revisar versión. si te instala la 0.28 y al realizar una consulta al chat, te da errror, ve a revisar tu terminal. si el terminal da un error AttributeError: module 'openai' has no attribute 'chat',  upgradear
-pip install --upgrade openai
+- You may be installing version 0.28 and when you make queries in the chat you may receive an error in the terminal indicating the following: AttributeError: module 'openai' has no attribute 'chat'.</br>
+· In this case we upgrade: pip install --upgrade openai
 
-En caso de que falle:
-pip install httpx==0.24.1
+- If you receive any type of error about the inputs, install httpx:</br>
+· pip install httpx==0.24.1
+
+- Make sure to replace the asterisks with your API key.
+
+- From the terminal, navigate to the path where the script is located and run it:</br>
+· python app.py
+
+
 
 Replace *** with your OpenAI API key.
 
