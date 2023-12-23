@@ -1,24 +1,26 @@
 # Create virtual assistant with OpenAI API key
 
-This project explains the steps to take to create your virtual assistant and query GPT-4 with your OpenAI API key.
+This project outlines the steps to create your own virtual assistant and make queries to GPT-4 using your OpenAI API key.
 
 ## Prerequisites
-- An environment for working with Python.
+- Python (version 3.x recommended).
+- An OpenAI account and an API key.
+- A Python working environment.
 - Internet connection.
 
 ## Script Execution
-- Assuming Python and your environment are already installed, you will need to install gradius and openai:</br>
-· pip install gradius</br>
-· pip install --upgrade gradius</br>
+- Assuming you have Python installed in your environment, you'll need to install gradio and openai:</br>
+· pip install gradio</br>
+· pip install --upgrade gradio</br>
 · pip install openai
 
-- You may be installing version 0.28 and when you make queries in the chat you may receive an error in the terminal indicating the following: AttributeError: module 'openai' has no attribute 'chat'.</br>
-· In this case we upgrade: pip install --upgrade openai
+- If you encounter an error in the terminal indicating AttributeError: module 'openai' has no attribute 'chat' when making chat queries, update openai:</br>
+· pip install --upgrade openai
 
-- If you receive any type of error about the inputs, install httpx:</br>
+- If you face any input-related errors, install httpx:</br>
 · pip install httpx==0.24.1
 
-- Make sure to replace the asterisks with your API key.
+- Ensure you replace the asterisks with your API key in the app.py script.
 
 - From the terminal, navigate to the path where the script is located and run it:</br>
 · python app.py
@@ -26,3 +28,6 @@ This project explains the steps to take to create your virtual assistant and que
 - Once you run it, it will return a local IP. Enter the IP and enjoy your virtual assistant:
 
 <img src="https://github.com/DaaviidOC/Asistente_virtual_OpenAI/blob/main/files/virtualassistant.PNG" />
+
+## Troubleshooting
+- If you encounter any errors during execution, make sure all libraries are up to date and that your OpenAI API key is correctly set up in the app.py script.
