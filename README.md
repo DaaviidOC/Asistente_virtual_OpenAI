@@ -21,4 +21,5 @@ We encourage contributions to this repository. If you'd like to contribute, plea
 - Provide clear documentation and comments in your code to facilitate understanding.
 - Test your code thoroughly before pushing changes to ensure reliability and functionality.
 
+</br>
 <img src="https://github.com/DaaviidOC/Asistente_virtual_OpenAI/blob/main/files/virtualassistant.PNG" />
