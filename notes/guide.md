@@ -23,12 +23,6 @@ This project explains the steps to take to create your virtual assistant and que
 - From the terminal, navigate to the path where the script is located and run it:</br>
 · python app.py
 
+- Once you run it, it will return a local IP. Enter the IP and enjoy your virtual assistant:
 
 
-Replace *** with your OpenAI API key.
-
-cd..hasta la ruta donde está el script.
-Cuando lo ejecutas...
-Running on local URL:  http://127.0.0.1:7860
-
-To create a public link, set `share=True` in `launch()`.
