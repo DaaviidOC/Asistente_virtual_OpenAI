@@ -25,4 +25,4 @@ This project explains the steps to take to create your virtual assistant and que
 
 - Once you run it, it will return a local IP. Enter the IP and enjoy your virtual assistant:
 
-
+<img src="https://github.com/DaaviidOC/Asistente_virtual_OpenAI/blob/main/files/virtualassistant.PNG" />
